@@ -22,3 +22,7 @@ stakeholders to easily track how a prefix propagates across the Internet. The to
 * Developed four custom wildcard patterns and regular expressions to identify BGP communities from the fetched data.
 * Wrote filtering logic to automatically update BGP peer messages when new data is received or when viewing past BGP messages.
 * Added a feature that allows users to view past BGP messages by implementing a timestamp slider or by clicking on a specific timestamp in the line chart, which updates the Sankey diagram and messages table to reflect the data at that particular time.
+
+## Screenshorts
+![GSoC'24 SS](https://github.com/user-attachments/assets/5bb1c870-1a61-46ae-9cf7-7650c3778df8)
+
