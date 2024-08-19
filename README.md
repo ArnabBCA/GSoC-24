@@ -24,5 +24,5 @@ stakeholders to easily track how a prefix propagates across the Internet. The to
 * Added a feature that allows users to view past BGP messages by implementing a timestamp slider or by clicking on a specific timestamp in the line chart, which updates the Sankey diagram and messages table to reflect the data at that particular time.
 
 ## Screenshorts
-![GSoC'24 SS](https://github.com/user-attachments/assets/5bb1c870-1a61-46ae-9cf7-7650c3778df8)
+![GSoC'24 SS](assets/GSoC'24%20SS.jpg)
 
