@@ -8,7 +8,10 @@
 ## Project Demo
 Here is a demo of the tool I developed from scratch in this GSoC'24 project:
 
-[![GSoC-2024 BGP Monitor demo by Arnab Ghosh](assets/Demo.png)](https://www.youtube.com/watch?v=ExhmUMzpLWs "GSoC-2024 BGP Monitor demo by Arnab Ghosh")
+<!--[![GSoC-2024 BGP Monitor demo by Arnab Ghosh](assets/Demo.png)](https://www.youtube.com/watch?v=ExhmUMzpLWs "GSoC-2024 BGP Monitor demo by Arnab Ghosh")-->
+
+https://github.com/user-attachments/assets/306baf70-ad15-4442-9880-9ca826918e98
+
 
 ## About the Project
 Network operators need to monitor the global reachability of their IP prefixes every time they update their routing policies or make BGP announcements.
