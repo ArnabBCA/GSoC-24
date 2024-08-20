@@ -29,9 +29,6 @@ stakeholders to easily track how a prefix propagates across the Internet. The to
 * Wrote filtering logic to automatically update BGP peer messages when new data is received or when viewing past BGP messages.
 * Added a feature that allows users to view past BGP messages by implementing a timestamp slider or by clicking on a specific timestamp in the line chart, which updates the Sankey diagram and messages table to reflect the data at that particular time.
 
-## Screenshorts
-![GSoC'24 SS](assets/GSoC'24%20SS.jpg)
-
 ### What code got merged?
 My work is in a dedicated branch named [gsoc24](https://github.com/InternetHealthReport/ihr-website/tree/gsoc24), which will later be merged into the master branch.
 <!--Initilay the project was in a single file and later it was splited into four separate files and was merged into [dev](https://github.com/InternetHealthReport/ihr-website/tree/dev) branch [PR link](https://github.com/InternetHealthReport/ihr-website/pull/828)-->
@@ -41,6 +38,9 @@ Files involved:
 * [BGPPathsChart.vue](https://github.com/InternetHealthReport/ihr-website/blob/gsoc24/src/components/charts/BGPPathsChart.vue)
 * [BGPLineChart.vue](https://github.com/InternetHealthReport/ihr-website/blob/gsoc24/src/components/charts/BGPLineChart.vue)
 * [BGPMessagesTable.vue](https://github.com/InternetHealthReport/ihr-website/blob/gsoc24/src/components/tables/BGPMessagesTable.vue)
+
+## Screenshorts
+![GSoC'24 SS](assets/GSoC'24%20SS.jpg)
 
 ## What’s left to do?
 The primary requirements for this project have been completed, and the first version of the tool is now ready. Below are items left for future versions of the tool:
