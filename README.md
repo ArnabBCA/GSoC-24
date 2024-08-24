@@ -21,16 +21,18 @@ stakeholders to easily track how a prefix propagates across the Internet. The to
 
 ## My Work
 * Created a monitoring dashboard using Vue.js, JavaScript, Quasar UI, and Plotly.js.
-* Integrated the [RIS Live](https://ris-live.ripe.net/) WebSocket API for primary data collection.
-* Wrote optimized JavaScript logic to generate visualization data for AS paths and line charts for BGP announcements and withdrawals.
-* Integrated the GitHub API to fetch additional BGP community information from a third-party repository [NLNOG/lg.ring.nlnog.net
-](https://github.com/NLNOG/lg.ring.nlnog.net/tree/main/communities), automatically retrieving and processing .txt files with CSV data. This includes filtering out invalid or inconsistent data and extracting valid BGP community descriptions.
-* Developed four custom wildcard patterns and regular expressions to identify BGP communities from the fetched data.
-* Wrote filtering logic to automatically update BGP peer messages when new data is received or when viewing past BGP messages.
-* Added a feature that allows users to view past BGP messages by implementing a timestamp slider or by clicking on a specific timestamp in the line chart, which updates the Sankey diagram and messages table to reflect the data at that particular time.
+* Integrated the [RIS Live](https://ris-live.ripe.net/) `WebSocket API` for primary data collection.
+* Wrote custom optimized JavaScript logic to generate `visualization data for AS paths and line charts` for BGP announcements and withdrawals.
+* Overall, I `optimized and modularized` all the code to handle displaying `1000+` messages while maintaining the website's responsiveness without overwhelming the browser.
+* Integrated the `GitHub API` to fetch additional BGP community information from a third-party repository [NLNOG/lg.ring.nlnog.net
+](https://github.com/NLNOG/lg.ring.nlnog.net/tree/main/communities), automatically retrieving and `processing .txt files with CSV data`. This includes filtering out invalid or inconsistent data and extracting valid BGP community descriptions.
+* Developed four custom `wildcard patterns` and regular expressions to identify BGP communities from the fetched data.
+* Integrated the [AsNames.js](https://github.com/InternetHealthReport/ihr-website/blob/gsoc24/src/plugins/AsNames.js) `plugin` to retrieve all AS names and country codes.
+* Wrote filtering logic to `automatically update` BGP peer messages when new data is received or when viewing past BGP messages.
+* Added a `feature` that allows users to view past BGP messages by implementing a timestamp slider or by clicking on a specific timestamp in the line chart, which updates the Sankey diagram and messages table to reflect the data at that particular time.
 
 ### What code got merged?
-My work is in a dedicated branch named [gsoc24](https://github.com/InternetHealthReport/ihr-website/tree/gsoc24), which will later be merged into the master branch.
+My work is in a dedicated branch named [gsoc24](https://github.com/InternetHealthReport/ihr-website/tree/gsoc24),It has currently been merged into the `dev` branch [PR link](https://github.com/InternetHealthReport/ihr-website/pull/828), which will later be merged into the `master` branch.
 <!--Initilay the project was in a single file and later it was splited into four separate files and was merged into [dev](https://github.com/InternetHealthReport/ihr-website/tree/dev) branch [PR link](https://github.com/InternetHealthReport/ihr-website/pull/828)-->
 Files involved:
 
